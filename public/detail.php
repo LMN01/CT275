@@ -45,13 +45,13 @@ $query = mysqli_query($connect, $sql);
             <?php echo $value['content1']?>
             <div class="col-3"></div>
             <div>
-                <img class="mt-3 mb-3" src="uploads/<?php echo $value['background']?>" alt="">
+                <img class="mt-3 mb-3 img-fluid" src="uploads/<?php echo $value['background']?>" alt="">
             </div>    
             <div class="col-3"></div>
             
             <?php echo $value['content2']?>
             <div class="col-6 mt-2 mb-2">
-                <img class="mt-3 mb-3" src="uploads/<?php echo $value['poster']?>" alt="">
+                <img class="mt-3 mb-3 img-fluid" src="uploads/<?php echo $value['poster']?>" alt="">
             </div>    
             <?php } ?>
         </div>
